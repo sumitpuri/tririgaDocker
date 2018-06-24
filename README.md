@@ -31,7 +31,7 @@ $ docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririg
 run ./root/runtririga.sh
 
 ### Step 7: 
-Open any browser and click http://localhost:8001/index.html to launch TRIRIGA on your local machine.
+Open any browser and click http://localhost:8001/index.html to launch TRIRIGA locally.
 
 #### For any questions, contact:
 
