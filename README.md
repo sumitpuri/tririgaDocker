@@ -27,10 +27,14 @@ where, <br />
 Image is ~18GB. Wait for pull to be completed
 
 ### Step 5: 
+Run
+
 $ docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
 
 ### Step 6: 
-run ./root/runtririga.sh
+Run
+
+$ ./root/runtririga.sh
 
 ### Step 7: 
 Open any browser and click http://localhost:8001/index.html to launch TRIRIGA locally.
