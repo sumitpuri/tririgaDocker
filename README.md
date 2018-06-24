@@ -24,7 +24,7 @@ where, <br />
 10.5.3.1 is Application Version <br />
 3.5.3.3 is Platform Version <br />
 51528 is Build number of the Platform <br />
-Image is ~18GB. Wait for pull to be completed
+Wait for pull to be completed
 
 ### Step 5: 
 Run
