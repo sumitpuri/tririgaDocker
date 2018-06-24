@@ -41,7 +41,7 @@ Sumit Puri <br />
 TRIRIGA Application Architect <br />
 sumit.puri@us.ibm.com
 
-<b>Ray Tripamer<b/> <br />
+Ray Tripamer <br />
 TRIRIGA Technical Architect <br />
 ray.tripamer@ibm.com
 
