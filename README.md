@@ -37,11 +37,11 @@ Open any browser and click http://localhost:8001/index.html to launch TRIRIGA lo
 
 #### For support, post your questions on [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) Slack channel or contact:
 
-Sumit Puri <br />
+<b>Sumit Puri<b\> <br />
 TRIRIGA Application Architect <br />
 sumit.puri@us.ibm.com
 
-Ray Tripamer <br />
+<b>Ray Tripamer<b\> <br />
 TRIRIGA Technical Architect <br />
 ray.tripamer@ibm.com
 
