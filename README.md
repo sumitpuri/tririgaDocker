@@ -11,7 +11,7 @@ Join [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) channe
 Post your Docker ID to get access to TRIRIGA Image.
 
 ### Step 3: 
-":thumbsup:" reaction on the post indicates the Docker ID has been provisioned with access to tririga repository.
+":thumbsup:" reaction on the post indicates the Docker ID has been provisioned with access to tririga repository. Proceed below once access is provisioned.
 
 ### Step 4: 
 Open terminal (on Mac) or command prompt (on windows) and run
