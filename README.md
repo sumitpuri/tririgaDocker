@@ -6,7 +6,7 @@ Download Docker for your operating system [here](https://www.docker.com/communit
 Click ‘Create a Docker ID’ to setup an account. 
 
 ### Step 2: 
-Join [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) channel on Slack.
+Join [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) channel on Slack using IBM w3 credentials.
 
 Post your Docker ID to get access to TRIRIGA Image.
 
@@ -18,7 +18,11 @@ Open terminal (on Mac) or command prompt (on windows) and run
 
 $ docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
 
-Wait for pull to be completed
+where, <br />
+10.5.3.1 is Application Version <br />
+3.5.3.3 is Platform Version <br />
+51528 is Build number of the Platform <br />
+Image is ~18GB. Wait for pull to be completed
 
 ### Step 5: 
 $ docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
