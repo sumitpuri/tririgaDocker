@@ -21,7 +21,7 @@ $ docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
 Wait for pull to be completed
 
 ### Step 5: 
-$ docker run -ti -p 8001:8001 -p 50000:50000 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
+$ docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
 
 ### Step 6: 
 run ./root/runtririga.sh
