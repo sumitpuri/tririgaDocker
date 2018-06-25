@@ -4,7 +4,7 @@
 Download and install Docker for [Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) or [Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac).
 
 ### Step 2: 
-Click ‘Create a Docker ID’ to setup an account. 
+Click [here](https://hub.docker.com/?next=https%3A%2F%2Fhub.docker.com%2F) to create a Docker ID.
 
 ### Step 3: 
 Join [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) channel on Slack using IBM w3 credentials.
