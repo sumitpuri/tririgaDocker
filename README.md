@@ -19,6 +19,10 @@ Proceed below once access is granted.
 ### Step 5: 
 Open Terminal (on Mac) or Command Prompt (on Windows 10) or Docker Quickstart Terminal (on Windows 7) and run
 
+docker login
+
+Provide the username/password
+
 docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
 
 where, <br />
