@@ -21,8 +21,6 @@ Open Terminal (on Mac) or Command Prompt (on Windows 10) or Docker Quickstart Te
 
 docker login
 
-Provide the username/password
-
 docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
 
 where, <br />
