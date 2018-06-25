@@ -39,6 +39,8 @@ $ ./runtririga.sh
 ### Step 7: 
 Open any browser and click http://localhost:8001/index.html to launch TRIRIGA locally.
 
+
+
 #### For any questions, post on [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) Slack channel or contact:
 
 Sumit Puri <br />
