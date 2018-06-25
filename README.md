@@ -1,21 +1,22 @@
 # Instructions to launch TRIRIGA Docker Image Locally
 
 ### Step 1: 
-Download Docker for your operating system [here](https://www.docker.com/community-edition).
-
-Click ‘Create a Docker ID’ to setup an account. 
+Download and install Docker for [Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) or [Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 
 ### Step 2: 
+Click ‘Create a Docker ID’ to setup an account. 
+
+### Step 3: 
 Join [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) channel on Slack using IBM w3 credentials.
 
 Post your Docker ID to get access to TRIRIGA Image.
 
-### Step 3: 
+### Step 4: 
 ":thumbsup:" reaction on the post indicates the Docker ID has been provisioned with access to tririga repository. 
 
 Proceed below once access is granted.
 
-### Step 4: 
+### Step 5: 
 Open terminal (on Mac) or command prompt (on windows) and run
 
 docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
@@ -26,17 +27,17 @@ where, <br />
 51528 is Build number of the Platform <br />
 Wait for pull to be completed
 
-### Step 5: 
+### Step 6: 
 Run
 
 docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
 
-### Step 6: 
+### Step 7: 
 Run
 
 ./runtririga.sh
 
-### Step 7: 
+### Step 8: 
 Open any browser and click http://localhost:8001/index.html to launch TRIRIGA locally.
 
 
