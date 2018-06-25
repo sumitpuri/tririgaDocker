@@ -1,7 +1,7 @@
 # Instructions to launch TRIRIGA Docker Image Locally
 
 ### Step 1: 
-Download and install Docker for [Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) or [Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+Download and install Docker for [Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) or [Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac).
 
 ### Step 2: 
 Click ‘Create a Docker ID’ to setup an account. 
