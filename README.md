@@ -18,7 +18,7 @@ Proceed below once access is granted.
 ### Step 4: 
 Open terminal (on Mac) or command prompt (on windows) and run
 
-$ docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
+docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
 
 where, <br />
 10.5.3.1 is Application Version <br />
@@ -29,12 +29,12 @@ Wait for pull to be completed
 ### Step 5: 
 Run
 
-$ docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
+docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
 
 ### Step 6: 
 Run
 
-$ ./runtririga.sh
+./runtririga.sh
 
 ### Step 7: 
 Open any browser and click http://localhost:8001/index.html to launch TRIRIGA locally.
