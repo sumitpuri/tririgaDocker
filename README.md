@@ -40,7 +40,10 @@ Run
 [root@tririgaDocker /]# ./runtririga.sh
 
 ### Step 8: 
-Open any browser and click http://localhost:8001/index.html to launch TRIRIGA locally.
+Open any browser and click http://localhost:8001/index.html to launch TRIRIGA locally. 
+
+username: system <br />
+password: admin
 
 
 
