@@ -7,7 +7,7 @@ Download and install Docker for [Mac](https://download.docker.com/mac/stable/Doc
 Click [here](https://hub.docker.com/?next=https%3A%2F%2Fhub.docker.com%2F) to create a Docker ID.
 
 ### Step 3: 
-Join [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) channel on Slack using IBM w3 credentials.
+Join [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) channel (in TRIRIGA Workspace) on Slack using IBM w3 credentials.
 
 Post your Docker ID to get access to TRIRIGA Image.
 
