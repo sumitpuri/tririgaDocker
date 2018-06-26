@@ -1,0 +1,5 @@
+docker ps -a (Displays list of all containers. There should be ONLY one TRIRIGA container in the list.)
+
+docker start  (To start TRIRIGA Container after reboot)
+
+docker attach  (To run [root@tririgaDocker /]# ./runtririga.sh command)
