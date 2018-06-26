@@ -46,7 +46,9 @@ Important Note: This command needs to be run only once for installation.
 ### Step 7: 
 Run
 
+```
 [root@tririgaDocker /]# ./runtririga.sh
+```
 
 
 ### Step 8: 
