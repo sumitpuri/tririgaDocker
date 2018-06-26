@@ -17,7 +17,8 @@ Post your Docker ID to get access to TRIRIGA Image.
 Proceed below once access is granted.
 
 ### Step 5: 
-Open Terminal (on Mac) or Command Prompt (on Windows 10) or Docker Quickstart Terminal (on Windows 7) and type the command after dollar sign and hit enter.
+Open Terminal (on Mac) or Command Prompt (on Windows 10) or Docker Quickstart Terminal (on Windows 7).<br />
+Type the command after dollar sign and hit enter.
 
 ```
 $ docker login
