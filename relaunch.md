@@ -19,7 +19,7 @@ Note down the "Image ID" of the TRIRIGA Container being worked upon.
 
 Run
 
-docker start "Image ID" (without "")
+docker start "Image ID" (without " ")
 
 It starts the TRIRIGA Container.
 
@@ -27,7 +27,7 @@ It starts the TRIRIGA Container.
 
 Run
 
-docker attach "Image ID" (without "")
+docker attach "Image ID" (without " ")
 
 ### Step 5:
 
