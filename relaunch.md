@@ -6,7 +6,9 @@ Rebooting the machine will stop the TRIRIGA Container. Follow below steps to rel
 
 Open Terminal (on Mac) or Command Prompt (on Windows 10) and run
 
-docker ps -a 
+```
+$ docker ps -a 
+```
 
 It displays list of all containers. 
 There should be ONLY one TRIRIGA container in the result. 
@@ -19,7 +21,9 @@ Note down the "Image ID" of the TRIRIGA Container being worked upon.
 
 Run
 
-docker start "Image ID" (without " ")
+```
+$ docker start "Image ID" (without " ")
+```
 
 It starts the TRIRIGA Container.
 
@@ -27,11 +31,17 @@ It starts the TRIRIGA Container.
 
 Run
 
-docker attach "Image ID" (without " ")
+```
+$ docker attach "Image ID" (without " ")
+```
 
 ### Step 5:
 
 Run 
 
+```
 [root@tririgaDocker /]# ./runtririga.sh
+```
+
+
 
