@@ -50,7 +50,7 @@ password: admin
 
 ### Other topics
 
-1. [Relaunch TRIRIGA Docker Image after machine reboot](tririgaDocker/relaunch)
+1. [Relaunch TRIRIGA Docker Image after machine reboot](https://github.com/sumitpuri/tririgaDocker/blob/master/relaunch)
 
 
 #### For any questions, post on [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) Slack channel or contact:
