@@ -17,11 +17,16 @@ Post your Docker ID to get access to TRIRIGA Image.
 Proceed below once access is granted.
 
 ### Step 5: 
-Open Terminal (on Mac) or Command Prompt (on Windows 10) or Docker Quickstart Terminal (on Windows 7) and run
+Open Terminal (on Mac) or Command Prompt (on Windows 10) or Docker Quickstart Terminal (on Windows 7) and type the command after dollar sign and hit enter.
 
-docker login
+```
+$ docker login
+```
 
-docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
+
+```
+$ docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
+```
 
 where, <br />
 10.5.3.1 is Application Version <br />
@@ -32,7 +37,9 @@ Wait for pull to be completed
 ### Step 6: 
 Run
 
-docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
+```
+$ docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
+```
 
 Important Note: This command needs to be run only once for installation. 
 
