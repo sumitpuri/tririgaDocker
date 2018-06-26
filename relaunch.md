@@ -15,7 +15,7 @@ There should be ONLY one TRIRIGA container in the result.
 
 ### Step 2: 
 
-Note down the "Image ID" of the TRIRIGA Container being worked upon. 
+Note down the Image ID of the TRIRIGA Container being worked upon. 
 
 ### Step 3: 
 
@@ -32,7 +32,7 @@ It starts the TRIRIGA Container.
 Run
 
 ```
-$ docker attach "Image ID" (without " ")
+$ docker attach <Image ID> (without <>)
 ```
 
 ### Step 5:
