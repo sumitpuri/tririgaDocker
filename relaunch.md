@@ -1,6 +1,6 @@
 # Relaunch TRIRIGA Docker Image after machine reboot
 
-Rebooting the machine will cause to stop the TRIRIGA Container. Follow below steps to bring it back up.
+Rebooting the machine will stop the TRIRIGA Container. Follow below steps to relaunch the image.
 
 ### Step 1: 
 
