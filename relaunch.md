@@ -4,7 +4,8 @@ Rebooting the machine will stop the TRIRIGA Container. Follow below steps to rel
 
 ### Step 1: 
 
-Open Terminal (on Mac) or Command Prompt (on Windows 10) and type the command after dollar sign and hit enter:
+Open Terminal (on Mac) or Command Prompt (on Windows 10).<br />
+Type the command after dollar sign and hit enter:
 
 ```
 $ docker ps -a 
