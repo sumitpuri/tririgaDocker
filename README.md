@@ -50,7 +50,7 @@ password: admin
 
 ### Other topics
 
-Restart TRIRIGA after machine reboot
+[Restart TRIRIGA after machine reboot](https://github.com/sumitpuri/tririgaDocker/blob/master/startingafterreboot.md)
 
 
 #### For any questions, post on [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) Slack channel or contact:
