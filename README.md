@@ -48,13 +48,9 @@ Open any browser and click http://localhost:8001/index.html to launch TRIRIGA lo
 username: system <br />
 password: admin
 
-### Further Considerations
+### Other topics
 
-docker ps -a (Displays list of all containers. There should be ONLY one TRIRIGA container in the list.)
-
-docker start <Image ID> (To start TRIRIGA Container after reboot)
-
-docker attach <Image ID> (To run [root@tririgaDocker /]# ./runtririga.sh command)
+Restart TRIRIGA after machine reboot
 
 
 #### For any questions, post on [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) Slack channel or contact:
