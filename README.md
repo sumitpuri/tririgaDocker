@@ -26,11 +26,11 @@ $ docker login
 
 
 ```
-$ docker pull ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528
+$ docker pull ibmtririga/tririga_10.5.3.2:v3.5.3.3_51528
 ```
 
 where, <br />
-10.5.3.1 is Application Version <br />
+10.5.3.2 is Application Version <br />
 3.5.3.3 is Platform Version <br />
 51528 is Build number of the Platform <br />
 Wait for pull to be completed
