@@ -1,4 +1,4 @@
-# Instructions to launch TRIRIGA Docker Image Locally
+# Instructions to launch TRIRIGA 10.5.3.2 Docker Image Locally
 
 ### Step 1: 
 Download and install Docker for [Mac](https://download.docker.com/mac/stable/Docker.dmg) or [Windows 10](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe) or [Windows 7](https://download.docker.com/win/stable/DockerToolbox.exe).
