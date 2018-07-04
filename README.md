@@ -50,11 +50,16 @@ Open browser and click http://localhost:8001/index.html to launch TRIRIGA locall
 username: system <br />
 password: admin
 
-### Note
+### Other docker commands
 
-To relaunch TRIRIGA Docker Image after machine reboot, run 
+To relaunch TRIRIGA Docker Container after machine reboot, run 
 ```
 $ docker start tririga_10.5.3.2
+```
+
+To view TRIRIGA Docker Container logs, run
+```
+$ docker logs -f tririga_10.5.3.2
 ```
 
 
