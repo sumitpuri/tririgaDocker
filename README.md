@@ -45,7 +45,7 @@ $ docker run -ti -p 8001:8001 --name tririga_10.5.3.2 -h tririgaDocker -d ibmtri
 Note: This command needs to be run only once for installation. 
 
 ### Step 7: 
-Wait 2-3 min, then open browser and click http://localhost:8001/index.html to launch TRIRIGA locally. 
+Open browser and click http://localhost:8001/index.html to launch TRIRIGA locally. 
 
 username: system <br />
 password: admin
