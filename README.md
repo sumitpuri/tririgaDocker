@@ -39,7 +39,7 @@ Wait for pull to be completed
 Run
 
 ```
-$ docker run -ti -p 8001:8001 --name tririga_10.5.3.1 -h tririgaDocker ibmtririga/tririga_10.5.3.1:v3.5.3.3_51528 bash
+$ docker run -ti -p 8001:8001 --name tririga_10.5.3.2 -h tririgaDocker ibmtririga/tririga_10.5.3.2:v3.5.3.3_51528 bash
 ```
 
 Important Note: This command needs to be run only once for installation. 
