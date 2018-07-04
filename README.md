@@ -39,20 +39,12 @@ Wait for pull to be completed
 Run
 
 ```
-$ docker run -ti -p 8001:8001 --name tririga_10.5.3.2 -h tririgaDocker ibmtririga/tririga_10.5.3.2:v3.5.3.3_51528 bash
+$ docker run -ti -p 8001:8001 --name tririga_10.5.3.2 -h tririgaDocker -d ibmtririga/tririga_10.5.3.2:v3.5.3.3_51528 ./runtririga.sh
 ```
 
 Important Note: This command needs to be run only once for installation. 
 
 ### Step 7: 
-Run
-
-```
-[root@tririgaDocker /]# ./runtririga.sh
-```
-
-
-### Step 8: 
 Open any browser and click http://localhost:8001/index.html to launch TRIRIGA locally. 
 
 username: system <br />
