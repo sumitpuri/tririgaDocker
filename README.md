@@ -42,7 +42,7 @@ Run
 $ docker run -ti -p 8001:8001 --name tririga_10.5.3.2 -h tririgaDocker -d ibmtririga/tririga_10.5.3.2:v3.5.3.3_51528 ./runtririga.sh
 ```
 
-Important Note: This command needs to be run only once for installation. 
+Note: This command needs to be run only once for installation. 
 
 ### Step 7: 
 Open any browser and click http://localhost:8001/index.html to launch TRIRIGA locally. 
@@ -52,7 +52,10 @@ password: admin
 
 ### Other topics
 
-1. [Relaunch TRIRIGA Docker Image after machine reboot](https://github.com/sumitpuri/tririgaDocker/blob/master/relaunch.md)
+To relaunch TRIRIGA Docker Image after machine reboot, run 
+```
+$ docker start tririga_10.5.3.2
+```
 
 
 #### For any questions, post on [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) Slack channel or contact:
