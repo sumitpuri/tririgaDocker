@@ -74,7 +74,7 @@ $ docker ps -a
 To delete Docker Container and Images
 ```
 $ docker rm -f <container-name>
-$ docker rmi -f <image-name>
+$ docker rmi -f <image-id>
 ```
 
 
