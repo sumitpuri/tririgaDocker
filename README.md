@@ -64,6 +64,7 @@ To view TRIRIGA Docker Container logs, run
 $ docker logs -f tririga_10.5.3.2
 ```
 
+<br />
 
 #### For any questions, post on [#tririga_docker](https://ibm-tririga.slack.com/messages/CBBLDA5QU/) Slack channel or contact:
 
