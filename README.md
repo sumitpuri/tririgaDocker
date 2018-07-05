@@ -59,10 +59,6 @@ To relaunch TRIRIGA Docker Container after machine reboot, run
 $ docker start tririga_10.5.3.2
 ```
 
-To view TRIRIGA Docker Container logs, run
-```
-$ docker logs -f tririga_10.5.3.2
-```
 Other Commands
 ```
 $ docker images (list all docker images)
@@ -76,6 +72,8 @@ $ docker rmi -f <image-id> (delete specified docker image)
 $ docker start <container-name> (start docker container)
 
 $ docker stop <container-name> (stop docker container)
+
+$ docker logs -f <container-name> (tail docker container logs)
 ```
 
 
