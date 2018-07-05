@@ -52,7 +52,7 @@ password: admin
 
 <br />
 
-### Other useful Docker commands
+### Useful Docker commands
 
 To relaunch TRIRIGA Docker Container after machine reboot, run 
 ```
