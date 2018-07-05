@@ -63,18 +63,19 @@ To view TRIRIGA Docker Container logs, run
 ```
 $ docker logs -f tririga_10.5.3.2
 ```
-To list all Docker Images
+Other Commands
 ```
-$ docker images
-```
-To list all Docker Containers
-```
-$ docker ps -a
-```
-To delete Docker Container and Images
-```
-$ docker rm -f <container-name>
-$ docker rmi -f <image-id>
+$ docker images (list all docker images)
+
+$ docker ps -a (list all docker containers)
+
+$ docker rm -f <container-name> (delete specified docker container)
+
+$ docker rmi -f <image-id> (delete specified docker image)
+
+$ docker start <container-name> (start docker container)
+
+$ docker stop <container-name> (stop docker container)
 ```
 
 
