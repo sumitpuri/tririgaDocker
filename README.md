@@ -33,6 +33,7 @@ where, <br />
 10.5.3.2 is Application Version <br />
 3.5.3.3 is Platform Version <br />
 51528 is Build number of the Platform <br />
+
 Wait for pull to be completed
 
 ### Step 6: 
