@@ -63,11 +63,11 @@ Other Commands
 ```
 $ docker images (list all docker images)
 
+$ docker rmi -f <image-id> (delete specified docker image)
+
 $ docker ps -a (list all docker containers)
 
 $ docker rm -f <container-name> (delete specified docker container)
-
-$ docker rmi -f <image-id> (delete specified docker image)
 
 $ docker start <container-name> (start docker container)
 
