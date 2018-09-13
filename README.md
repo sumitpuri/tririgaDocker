@@ -1,7 +1,7 @@
-# Instructions to launch TRIRIGA 10.5.3.2 Docker Image Locally
+# TRIRIGA 10.6 Docker Image local install using Command Line
 
 ### Step 1: 
-Download and install Docker for [Mac](https://download.docker.com/mac/stable/Docker.dmg) or [Windows 10](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe) or [Windows 7](https://download.docker.com/win/stable/DockerToolbox.exe).
+Download and install Docker for [Mac](https://download.docker.com/mac/stable/Docker.dmg) or [Windows 10](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe) 
 
 ### Step 2: 
 Click [here](https://hub.docker.com/?next=https%3A%2F%2Fhub.docker.com%2F) to create a Docker ID.
@@ -26,13 +26,8 @@ $ docker login
 
 
 ```
-$ docker pull ibmtririga/tririga_10.5.3.2:v3.5.3.3_51528
+$ docker pull ibmtririga/tririga_10.6
 ```
-
-where, <br />
-10.5.3.2 is Application Version <br />
-3.5.3.3 is Platform Version <br />
-51528 is Build number of the Platform <br />
 
 Wait for pull to be completed
 
@@ -40,7 +35,7 @@ Wait for pull to be completed
 Run
 
 ```
-$ docker run -ti -p 8001:8001 --name tririga_10.5.3.2 -h tririgaDocker -d ibmtririga/tririga_10.5.3.2:v3.5.3.3_51528 ./runtririga.sh
+$ docker run -ti -p 8001:8001 --name tririga_10.6 -h tririgaDocker -d ibmtririga/tririga_10.6 ./runtririga.sh
 ```
 
 Note: This command needs to be run only once for installation. 
@@ -57,7 +52,7 @@ password: admin
 
 To relaunch TRIRIGA Docker Container after machine reboot, run 
 ```
-$ docker start tririga_10.5.3.2
+$ docker start tririga_10.6
 ```
 
 Other Commands
