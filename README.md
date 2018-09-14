@@ -50,9 +50,11 @@ password: admin
 
 ### Useful Docker commands
 
-To relaunch TRIRIGA Docker Container after machine reboot, run 
+To relaunch TRIRIGA Docker Container next time, run below commands in succession:
 ```
 $ docker start tririga_10.6
+$ docker attach tririga_10.6
+$ ./runtririga.sh
 ```
 
 Other Commands
