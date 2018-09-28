@@ -57,20 +57,25 @@ $ docker attach tririga_10.6
 $ ./runtririga.sh
 ```
 
-Other Commands
+To Delete Docker Container:
+```
+$ docker ps -a (list all docker containers)
+$ docker rm -f <container-name> (delete specified docker container)
+```
+To Delete Docker Image:
 ```
 $ docker images (list all docker images)
-
 $ docker rmi -f <image-id> (delete specified docker image)
+```
 
-$ docker ps -a (list all docker containers)
-
-$ docker rm -f <container-name> (delete specified docker container)
-
+To Start/Stop Containers:
+```
 $ docker start <container-name> (start docker container)
-
 $ docker stop <container-name> (stop docker container)
+```
 
+To see Container logs:
+```
 $ docker logs -f <container-name> (tail docker container logs)
 ```
 
