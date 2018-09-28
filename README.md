@@ -70,13 +70,13 @@ $ docker rmi -f <image-id> (delete specified docker image)
 
 To Start/Stop Containers:
 ```
-$ docker start <container-name> (start docker container)
-$ docker stop <container-name> (stop docker container)
+$ docker start <container-id or container-name> (start docker container)
+$ docker stop <container-id or container-name> (stop docker container)
 ```
 
 To see Container logs:
 ```
-$ docker logs -f <container-name> (tail docker container logs)
+$ docker logs -f <container-id or container-name> (tail docker container logs)
 ```
 
 
