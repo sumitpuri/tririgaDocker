@@ -60,7 +60,7 @@ $ ./runtririga.sh
 To Delete Docker Container:
 ```
 $ docker ps -a (list all docker containers)
-$ docker rm -f <container-name> (delete specified docker container)
+$ docker rm -f <container-id or container-name> (delete specified docker container)
 ```
 To Delete Docker Image:
 ```
