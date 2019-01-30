@@ -1,4 +1,4 @@
-# TRIRIGA 10.6 Docker Image local install using Command Line
+# TRIRIGA 10.6/10.5.3.x Docker Image local install using Command Line
 
 ### Step 1: 
 Download and install Docker for [Mac](https://download.docker.com/mac/stable/Docker.dmg) or [Windows 10](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe) 
